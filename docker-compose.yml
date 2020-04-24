@@ -8,3 +8,4 @@ services:
     command: yarn start
   debian:
     image: debian
+    command: tail -f /dev/null
